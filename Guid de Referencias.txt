@@ -1,0 +1,4 @@
+https://balta.io/blog/clean-code
+https://www.dotnettricks.com/learn/designpatterns/solid-design-principles-explained-using-csharp
+Udemy - C# - Aplicando Princípios SOLID na prática
+https://www.youtube.com/playlist?list=PLhhZBu2_3d7Hixj7V-Q-NuLLD-DA6eqft
