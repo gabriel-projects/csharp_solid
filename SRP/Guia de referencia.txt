@@ -1,0 +1,15 @@
+SRP (Single Responsibility Principle), ou Princípio da Responsabilidade Única, é um dos princípios do SOLID, um conjunto de diretrizes para escrever código limpo e de fácil manutenção. O SRP estabelece que uma classe deve ter apenas uma única responsabilidade, ou seja, ela deve ter apenas um motivo para ser alterada.
+
+Quando dizemos que uma classe deve ter apenas um motivo para ser alterada, estamos nos referindo ao fato de que uma classe deve ser modificada somente quando há uma mudança naquilo que é a sua responsabilidade principal.
+
+Em outras palavras, cada classe deve ter uma única responsabilidade e essa responsabilidade deve ser a única causa legítima para que a classe seja modificada. Se houver mais de uma razão para alterar uma classe, isso significa que ela possui mais de uma responsabilidade, o que pode resultar em um código mais complexo e difícil de manter.
+
+Ao seguir o Princípio da Responsabilidade Única, você busca criar classes que sejam coesas e focadas em uma tarefa específica. Isso traz alguns benefícios, tais como:
+
+Facilidade de manutenção: Quando uma classe tem uma única responsabilidade, as mudanças relacionadas a essa responsabilidade podem ser feitas de forma isolada, sem afetar outras partes do sistema. Isso simplifica a manutenção e reduz o risco de introduzir erros.
+
+Reutilização de código: Classes bem definidas, com uma única responsabilidade, tendem a ser mais modularizadas e podem ser reutilizadas em diferentes partes do sistema. Você pode extrair uma classe específica e usá-la em outros contextos, pois ela tem um escopo bem definido e não possui dependências indesejadas.
+
+Testabilidade: Classes com uma única responsabilidade são mais fáceis de serem testadas. Ao isolá-las, você pode criar testes unitários mais focados, que verifiquem apenas o comportamento relacionado à sua responsabilidade específica.
+
+Em resumo, o motivo para alterar uma classe deve ser único e relacionado à sua única responsabilidade. Isso promove um código mais coeso, modular e fácil de manter, além de facilitar a reutilização e os testes.
