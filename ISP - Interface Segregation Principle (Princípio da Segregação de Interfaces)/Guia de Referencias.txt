@@ -1,0 +1,5 @@
+O Interface Segregation Principle (ISP) é outro princípio importante do SOLID na programação orientada a objetos. O ISP estabelece que:
+
+"Clientes não devem ser forçados a depender de interfaces que não utilizam."
+
+Em termos mais simples, o ISP sugere que uma classe não deve ser forçada a depender de interfaces que possuem membros (métodos) que não são relevantes para ela. Em vez disso, é melhor dividir interfaces grandes em interfaces menores, mais específicas, para que as classes possam implementar apenas as interfaces que realmente precisam.
