@@ -1,0 +1,7 @@
+O Dependency Inversion Principle (DIP) é outro princípio importante do SOLID na programação orientada a objetos. O DIP estabelece que:
+
+Módulos de alto nível não devem depender de módulos de baixo nível. Ambos devem depender de abstrações.
+Abstrações não devem depender de detalhes. Detalhes devem depender de abstrações.
+Em termos mais simples, o DIP sugere que devemos depender de abstrações (interfaces ou classes abstratas) em vez de depender de implementações concretas. Isso permite uma maior flexibilidade e facilita a manutenção e a extensibilidade do código.,
+
+Em resumo, o DIP nos ajuda a criar um código mais flexível e desacoplado, permitindo que dependamos de abstrações em vez de implementações concretas. Isso nos ajuda a escrever código mais coeso e facilita a introdução de novos comportamentos sem afetar o código existente.

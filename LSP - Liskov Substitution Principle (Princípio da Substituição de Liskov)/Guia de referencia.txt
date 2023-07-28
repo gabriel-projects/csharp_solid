@@ -1,0 +1,5 @@
+O Liskov Substitution Principle (LSP) é um dos princípios SOLID da programação orientada a objetos e é uma diretriz importante para o design de classes e hierarquias de herança. O LSP estabelece que as instâncias de uma classe derivada devem ser capazes de serem substituídas pelas instâncias da classe base sem alterar a corretude do programa.
+
+Em termos simples, isso significa que uma classe derivada deve ser compatível com sua classe base, respeitando os contratos e comportamentos definidos pela classe base.
+
+* Perceber quando uma classe nao deve ser uma classe  derivada *
