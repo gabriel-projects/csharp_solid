@@ -1,0 +1,6 @@
+OCP (Open/Closed Principle), ou Princípio do Aberto/Fechado, é outro princípio do SOLID que visa promover o design de software flexível e extensível. O princípio afirma que uma entidade de software (classe, módulo, função, etc.) deve estar aberta para extensão, mas fechada para modificação.
+
+Em outras palavras, quando uma nova funcionalidade ou comportamento precisa ser adicionado ao sistema, isso deve ser feito através da extensão do código existente, sem modificar o código fonte original. O objetivo é evitar alterações diretas em classes já existentes, o que pode introduzir riscos de regressão e impactar negativamente outras partes do sistema.
+
+Para seguir o OCP, geralmente são utilizados padrões de design como o uso de herança, interfaces e a aplicação do padrão Strategy. Essas técnicas permitem que o comportamento de uma classe seja estendido ou modificado sem alterar seu código original.
+
