@@ -17,11 +17,11 @@ namespace ClassLibrary.Animais
     public interface IAve
     {
         void Bicar();
-        void Voar();
+        //void Voar(); segregando a interface
     }
 
 
-    public class Gaviao : IAve
+    public class Gaviao : IAveVoadora
     {
         public void Bicar()
         {
@@ -41,9 +41,15 @@ namespace ClassLibrary.Animais
             //bicar
         }
 
-        public void Voar()
-        {
-            //não faz sentido
-        }
+        //Segregando a interface
+        //public void Voar()
+        //{
+        //    //não faz sentido
+        //}
+    }
+
+    public interface IAveVoadora : IAve
+    {
+        void Voar();
     }
 }
